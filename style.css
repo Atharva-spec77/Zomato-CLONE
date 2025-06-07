@@ -1,0 +1,142 @@
+body{
+    font-family: 'Montserrate',sans-serif;
+    margin: 0;
+    background-color: #fff;
+    color: #333;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #eee;
+}
+
+.logo{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #e03546;
+
+}
+.location-search input {
+  margin: 0 5px;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.acount a {
+     margin-left: 1rem;
+     text-decoration: none;
+     color: #555;
+
+
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+nav a {
+  margin: 0 1rem;
+  padding: 0.5rem 1rem;
+  color: #333;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+}
+
+nav a.active {
+  color: #e03546;
+  border-bottom: 2px solid #e03546;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+  gap: 10px;
+}
+
+.filters button {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  background: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.inspiration {
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+.inspiration h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+
+.items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.item {
+  text-align: center;
+}
+
+.item img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.top-brands {
+  padding: 2rem;
+}
+
+.top-brands h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.brands {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.brand {
+  text-align: center;
+}
+
+.brand img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  background-color: #fff;
+}
+
+.brand p {
+  margin-top: 0.5rem;
+  font-weight: 500;
+}
+
+.brand span {
+  font-size: 0.9rem;
+  color: #555;
+}
+
